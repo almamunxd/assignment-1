@@ -10,11 +10,41 @@ body {
 }
 
 .header {
-    padding-top: 5px;
+    margin-top: 50px;
+    
 }
-.header .navbar{
+
+.header .navbar {
+    display: flex;
+    padding-bottom: 36px;
+    margin-left: 150px;
+        margin-right: 150px;
+        align-items: center;
+       
+
+}
+.header .navbar .logo{
+    margin-right: 760px;
+}
+
+.header .navbar .logo a {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 128px;
-  
+    font-weight: 900;
+    text-decoration: none;
+    color: #0D1321;
+    
+     
 }
+
+.header .navbar .downloadButton a button {
+    background-color: white;
+    color: #0D1321;
+    width: 244px;
+    height: 57px;
+    border-radius: 8px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: bold;
+    padding: 17px 24px;
+}
+
