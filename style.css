@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    padding-top: 5px;
+}
+.header .navbar{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 128px;
+  
+}
