@@ -7,6 +7,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Azeret Mono", monospace;
 }
 
 .header {
@@ -47,17 +48,17 @@ body {
 }
 
 /* navbar end */
- /* header contant start */
- .header .headerContant{
+/* header contant start */
+.header .headerContant {
     display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        text-align: center;
-        position: relative;
-        margin-bottom: 154px;
- }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    margin-bottom: 154px;
+}
 
 .header .headerContant .bgImg {
     pointer-events: none;
@@ -67,24 +68,24 @@ body {
     z-index: -1;
 }
 
-.header .headerContant .groupImg{
+.header .headerContant .groupImg {
     display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 32px;
-        padding-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 32px;
+    padding-top: 26px;
 }
 
-.header .headerContant h1{
+.header .headerContant h1 {
     text-align: center;
     color: #0D1321;
     font-family: "Azeret Mono", monospace;
     font-weight: 800;
-    font-size: 48px ;
+    font-size: 48px;
     padding-bottom: 24px;
 }
 
-.header .headerContant .headerDescription{
+.header .headerContant .headerDescription {
     font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
@@ -115,14 +116,221 @@ body {
     background-color: #02dd26b2;
     color: black;
 }
+
 /* header contant end */
 
 /* main contant start */
-    
+.maincontant {
+    display: flex;
+    flex-direction: column;
+}
+
+.maincontant h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.maincontant .maincontantDescription {
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 96px;
+}
+
+.maincontant .contantOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 135px;
+
+}
+
+.maincontant .contantOne .contantOneTexts .contantOneheader {
+    width: 852px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 70%;
+    color: #0D1321;
+    padding-left: 250px;
+    margin-bottom: 16px;
+
+
+}
+
+
+.maincontant .contantOne .contantOneTexts p {
+    margin-left: 250px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    width: 468px;
+    opacity: 70%;
+}
+
+.maincontant .contantOne .contantOneTexts a button {
+    margin-left: 250px;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 70%;
+    cursor: pointer;
+
+}
+
+.maincontant .contantOne .contantOneTexts a button:hover {
+    background-color: #0D1321;
+    opacity: 100%;
+    color: azure;
+}
+
+.maincontant .contantOne .contantOneimg {
+    flex: 1;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.maincontant .contantOne .contantOneimg img {
+    margin-right: 250px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 274px;
+    height: 240px;
+}
+
+
+.maincontant .contanttwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 138px;
+}
+
+.maincontant .contanttwo .contantTwoimg {
+    flex: 1;
+    padding-left: 250px;
+
+
+}
+
+.maincontant .contanttwo .contantTwoimg img {
+    height: 240px;
+    width: 240px;
+    display: block;
+    padding-right: 32px;
+}
+
+.maincontant .contanttwo .contantTwoTexts .contantTwoheader {
+    width: 852px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 16px;
+}
+
+.maincontant .contanttwo .contantTwoTexts .contantTwodescription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    width: 468px;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+
+.maincontant .contanttwo .contantTwoTexts a button {
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.maincontant .contanttwo .contantTwoTexts a button:hover {
+    background-color: #0D1321;
+    opacity: 100%;
+    color: azure;
+}
 
 
 
+.maincontant .contantthree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 218px;
+
+}
+
+.maincontant .contantthree .contantthreeTexts .contantthreeheader {
+    width: 852px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 70%;
+    color: #0D1321;
+    padding-left: 250px;
+    margin-bottom: 16px;
 
 
+}
+
+
+.maincontant .contantthree .contantthreeTexts p {
+    margin-left: 250px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0D1321;
+    width: 468px;
+    opacity: 70%;
+}
+
+.maincontant .contantthree .contantthreeTexts a button {
+    margin-left: 250px;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 70%;
+    cursor: pointer;
+
+}
+
+.maincontant .contantthree .contantthreeTexts a button:hover {
+    background-color: #0D1321;
+    opacity: 100%;
+    color: azure;
+}
+
+.maincontant .contantthree .contantthreeimg {
+    flex: 1;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.maincontant .contantthree .contantthreeimg img {
+    margin-right: 250px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 274px;
+    height: 240px;
+}
 
 /* main contant end */
