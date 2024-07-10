@@ -372,9 +372,10 @@ body {
 }
 
 /* target starts */
-.target{
+.target {
     margin-bottom: 111px;
 }
+
 .target .targettexts .targetheader {
     font-weight: 800;
     font-size: 32px;
@@ -461,7 +462,7 @@ body {
     margin-bottom: 30.2px;
 }
 
-.target .cards .card2 .css{
+.target .cards .card2 .css {
     margin-left: 40px;
     font-weight: 800;
     font-size: 24px;
@@ -504,7 +505,7 @@ body {
     margin-bottom: 30.2px;
 }
 
-.target .cards .card3 .js{
+.target .cards .card3 .js {
     margin-left: 40px;
     font-weight: 800;
     font-size: 24px;
@@ -532,4 +533,72 @@ body {
 }
 
 /* target ends */
+
+/* support section start */
+
+.support .supportBgimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+
+}
+
+.support .supportBgimg img {
+    pointer-events: none;
+    position: absolute;
+    width: 1100px;
+    height: 350px;
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.support .suporttexts{
+    text-align: center;
+
+}
+
+.support .suporttexts .supportheader{
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFFFFF ;
+    margin-top: -100px;
+    margin-bottom: 16px;
+}
+
+.support .suporttexts .suportdescription{
+font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    opacity: 70%;
+}
+
+.support .blankfild input{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+}
+
+.support .blankfild ::placeholder{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#0D1321 ;
+    opacity: 40%;
+}
+
+.support .suporttexts .blankfild .submitbutton button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px ;
+    border: none;
+    color: #0D1321;
+    margin-top: 20px;
+}
+
+/* support section ends */
 
