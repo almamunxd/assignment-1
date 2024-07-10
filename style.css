@@ -5,6 +5,10 @@
     outline: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Azeret Mono", monospace;
@@ -96,7 +100,7 @@ body {
     padding-bottom: 32px;
 }
 
-.header .headerContant .ContactWithMe {
+.header .headerContant .ContactWithMe{
     padding: 21px 24px;
     background-color: #0D1321;
     color: white;
@@ -109,12 +113,15 @@ body {
     font-family: "Azeret Mono", monospace;
     border-radius: 8px;
     margin-bottom: 44px;
+    scroll-behavior: smooth
 
 }
+
 
 .header .headerContant .ContactWithMe:hover {
     background-color: #02dd26b2;
     color: black;
+    
 }
 
 /* header contant end */
@@ -536,6 +543,10 @@ body {
 
 /* support section start */
 
+.support{
+    margin-bottom: 120px;
+}
+
 .support .supportBgimg {
     display: flex;
     justify-content: center;
@@ -602,3 +613,38 @@ font-weight: 400;
 
 /* support section ends */
 
+/* footer start */
+
+.footer .footercontant{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.footer .footercontant .footertexts{
+    margin-left: 130px;
+    width: 456px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#0D1321 ;
+    margin-right: 460px;
+}
+
+.footer .footercontant .footericons{
+    margin-right: 130px;
+}
+ 
+.footer .footercontant .footericons .facebook img{
+    width: 36px ;
+    height: 36px;
+}
+
+.footer .footercontant .footericons .github img {
+    width: 36px;
+    height: 36px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* footer end */
