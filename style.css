@@ -334,3 +334,202 @@ body {
 }
 
 /* main contant end */
+
+/* inspiration starts */
+
+.inspiration {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 183px;
+}
+
+.inspiration h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.inspiration .inspirationtext {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 80px;
+}
+
+.inspiration .youtube {
+    display: flex;
+    justify-content: center;
+
+}
+
+.inspiration .youtube iframe {
+    border-radius: 16px;
+}
+
+/* target starts */
+.target{
+    margin-bottom: 111px;
+}
+.target .targettexts .targetheader {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+
+.target .targettexts .targetdescription {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+
+.target .cards {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target .cards .card1 {
+    width: 364px;
+    height: 299px;
+    margin-right: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.target .cards .card1 img {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 30.2px;
+}
+
+.target .cards .card1 .html {
+    margin-left: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+    margin-bottom: 8px;
+
+}
+
+.target .cards .card1 .htmldescription {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+
+.target .cards .card1 a {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 40px;
+}
+
+.target .cards .card2 {
+    width: 364px;
+    height: 299px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-right: 24px;
+
+}
+
+.target .cards .card2 img {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 30.2px;
+}
+
+.target .cards .card2 .css{
+    margin-left: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+    margin-bottom: 8px;
+
+}
+
+.target .cards .card2 .cssdescription {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+
+.target .cards .card2 a {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 40px;
+}
+
+.target .cards .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 364px;
+    height: 299px;
+
+}
+
+.target .cards .card3 img {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 30.2px;
+}
+
+.target .cards .card3 .js{
+    margin-left: 40px;
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+    margin-bottom: 8px;
+
+}
+
+.target .cards .card3 .jsdescription {
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 70%;
+    color: #0D1321;
+    margin-bottom: 24px;
+
+}
+
+.target .cards .card3 a {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 40px;
+}
+
+/* target ends */
+
