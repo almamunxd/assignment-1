@@ -49,6 +49,7 @@ body {
     font-family: "Azeret Mono", monospace;
     font-weight: bold;
     padding: 17px 24px;
+    cursor: pointer;
 }
 
 /* navbar end */
@@ -601,6 +602,7 @@ font-weight: 400;
 }
 
 .support .suporttexts .blankfild .submitbutton button{
+    cursor: pointer;
     width: 120px;
     height: 57px;
     border-radius: 8px;
